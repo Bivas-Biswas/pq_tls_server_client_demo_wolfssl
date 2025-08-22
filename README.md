@@ -59,4 +59,4 @@ server.
 
 ## Demo
 
-<video src="./pq_tls_server_client_demo_wolfssl.mkv" width="100%" height="360" controls></video>
+<video src="./pq_tls_server_client_demo_wolfssl.mkv" width="480" height="360" controls></video>
