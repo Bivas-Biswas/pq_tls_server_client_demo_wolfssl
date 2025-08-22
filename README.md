@@ -11,12 +11,14 @@ This directory contains:
 
 # Prerequisites
 
-Build wolfSSL with support for ML-KEM (Kyber) and ML-DSA (Dilthium
+Build wolfSSL with support for ML-KEM (Kyber) and ML-DSA (Dilthium)
 
 ```
+git clone https://github.com/wolfSSL/wolfssl.git
+cd wolfssl
 ./autogen.sh
-./configure --enable-kyber --enable-dilithium
-make all
+sudo ./configure --enable-kyber --enable-dilithium --enable-debug 
+sudo make all
 sudo make install
 sudo ldconfig
 ```
